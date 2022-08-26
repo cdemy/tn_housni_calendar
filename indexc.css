@@ -1,0 +1,165 @@
+#Alles {
+    display: grid;
+    grid-template-areas: 
+    "kopf kopf " 
+    "links rechts ";
+}
+
+#Kopf {
+    grid-area: kopf;
+    color: aliceblue; border: 5px;
+    text-align: center;
+    height:8% ;
+    border-radius: 80px;
+    font-size: 1cm;
+}
+
+body{
+    background:linear-gradient(90deg , black , red ,rgb(255, 132, 0));
+    background-size:100%;
+}
+
+
+#Links {
+    grid-area: links;
+    padding: 2%;
+    border-radius: 80px;
+    margin-right: 10%;
+    margin-left:5%;
+    width:80% ;
+    min-width: 15cm;
+ 
+}
+
+#Rechts {
+    grid-area: rechts;
+    background:linear-gradient(30deg,white , rgb(158, 153, 153),white);
+    padding: 3%;
+    color: black;
+    border-radius: 80px;
+    margin-right:5%;
+    width: 80% ;
+    max-width: 19cm;
+
+}
+
+#InfoBox {
+    background-color: rgb(214, 213, 213);
+    color: blue;
+    padding: 1em;
+}
+
+.kw {
+    color: aliceblue;
+    background:linear-gradient(90deg , black , red ,rgb(255, 132, 0));
+    text-align: center;
+}
+
+
+.monatujahrvater{
+display:flex;
+flex-wrap: wrap;
+
+}
+
+.monthup{
+    margin-left: 10%;
+    margin-right: 15%;
+    position: absolute;
+}
+
+.monat{
+    color: aliceblue;
+    text-align: left;
+    border: 0cm;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.jahr{
+    float: inline-end;
+    margin-left: 23%;
+    color: aliceblue;
+    position: absolute;
+}
+
+
+table { width:100%;
+      }
+
+
+.backfoto{
+    background-image: url(winter.jpg);
+    background-position: center 0cm;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.we {
+    background:linear-gradient(50deg , yellow, rgb(158, 153, 153),white);
+
+    color: black;
+    font-weight: bold;
+    border-right: 1px;
+}
+
+.pfeil {
+  color: black;
+  font-weight:bolder ;
+
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+button:active{
+    background-color: red;
+    color: aliceblue;
+}
+
+.heute{
+    color: yellow;
+}
+.monatsname{
+font-size: 20px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.usualdays{
+    width: 100%;
+    border-radius: 15px;
+    border-bottom: 20%;
+
+}
+
+.hollyday{
+    color: aliceblue;
+    background:linear-gradient(100deg , black , red , rgb(158, 153, 153));
+    width: 100%;
+    border-radius: 15px;
+    border-bottom: 20%;
+}
+.today{
+    width: 100%;
+    border-radius: 15px;
+    border-bottom: 20%;
+    color: red;
+    background-color: rgb(213, 194, 22);
+}
+.weakend{
+    color: black;
+    font-weight: bold;
+    border-left: 2px;
+    background:linear-gradient(50deg , yellow, rgb(158, 153, 153),white);
+    width: 100%;
+    border-radius: 15px;
+    border-bottom: 20%;
+}
+
+.outdays{
+    width: 100%;
+    border-radius: 15px;
+    border-bottom: 20%;
+    background: none;
+}
+

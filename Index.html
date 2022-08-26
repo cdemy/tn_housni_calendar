@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Kalender vom
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href=  "indexc.css" />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <div id="Alles">
+            <div id="Kopf">
+                <h1 id="heutigesstringk"> </h1>
+            </div>
+            <div id="Links" class="backfoto">
+                <div class="monatujahrvater">
+                    
+                        <div  class="monat">
+                           &nbsp;  <button class="pfeil" onclick="monthDown()"> <i class="fa-solid fa-caret-left"></i></i> </button> &nbsp; 
+                           <span id="kalendermonat" class="monatsname">März</span> 
+                        </div>
+                        <div class="monthup">
+                            &nbsp;  <button  class="pfeil" onclick="monthUp()"> <i class="fa-solid fa-caret-right"></i> </button> &nbsp; 
+                        </div>
+                        <div colspan="2" class="jahr">
+                            &nbsp; &nbsp; <button  class="pfeil" onclick="yearDown()"> <i class="fa-solid fa-caret-left"></i> </button> &nbsp; 
+                            <span id="kalenderjahr" class="monatsname" >2022</span> 
+                            <button  class="pfeil" onclick="yearUp()"> <i class="fa-solid fa-caret-right"></i> </button>  
+                        </div>
+                   
+                </div>
+                <table class=kt  id="dynamictable">
+                
+                    
+                </table>
+
+            </div>
+            <div id="Rechts">
+                <p>
+                    Der <span id="heutigesstring">17.03.2022</span>  ist ein <span id="heutigesnahme"> Donnerstag</span>  und zwar der <span id= "heutigesnahmenummer"> dritte</span> <span id="heutigesnahme1"> Donerstag</span>  das Monats <span id="heutigesmonatsnahme"> März </span> im Jahr 
+                   <span id="heutigesjahr"> 2022</span>. es handelt sich <span id="Feiertagrichtigkeit"> </span> um einen gesetzlichen Feiertag. Der letzte Feiertag vor 
+                    dem <span id="heutigesstring1"></span> war der <span id="vorherigerfeiertag"> 01.01.2022 (neujahr) </span>  und der nächste Feiertag ist <span id="nächsterfeirtag">15.04.2022 (Karfreitag)</span> 
+                </p>    
+                <h2 style="color: red; height: 20px;">
+                    Historische Ereignisse am : <span id="heutigerTagMonat">17.03.</span>
+                </h2>
+                <ul>
+                    <li>
+                        362: Der römische Kaiser Julian erlässt Retorendikt, wonach die Einstellung eines 
+                        Lehrers von der Curia und dem Kaiser zu beurteilen ist. De Facto wird christlichen 
+                        Lehrern damit untersagt, an öffentlichen Schulen zu unterrichten
+                    </li>
+                    <li>
+                        1397: mit der Krönung Eriks VII. zum gemeinsammen König von Dänmark, Norwegen und
+                        Schweden in Kalmar wird die Kalmarer Union gebildet.
+                    </li>
+                    <li> 1405; in der Schlach am Stoss während der Appenzellerkrieg besiegen die Apezeller 
+                        die Habsburger. Gleichzeitig besiegt auch das verbundete St. Gallen habsburgische 
+                        Truppen im Gefecht bei Rotmonten
+                    </li>
+                    <li> 
+                        1429: Nach der zweitigen Schlacht um Beaugency gegen eine englische Besatzung 
+                        bekommt im hundertjährigenKrieg eine von Jeanne d'Arc und Herzug Johann II. 
+                        von Alencon angeführte Streitmacht einen weiteren Überrang über die Loire 
+                        unter Kontrolle.
+                    </li>
+                    <li>
+                        1579: Sir Francis Darke erhebt im Laufe seiner Weltumsegelung für England 
+                        Anspruch auf ein Land, das er Nova Albion ( das heutige Kalifornia ) nennt.
+                    </li>
+                    <li> 
+                        1715: Im Hardtwald wird der Grundstein für das Schluss Karlsluhe und damit 
+                        der Stadt Karlsuhe gelegt
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
